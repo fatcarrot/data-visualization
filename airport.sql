@@ -1,0 +1,21 @@
+SELECT
+    airport_id
+    ,airport_iata_code
+    ,airport_icao_code
+    ,airport_name
+    ,airport_name_code
+    ,airport_byname
+    ,country
+    ,country_code
+    ,city
+    ,city_code
+    ,longitude
+    ,latitude
+    ,altitude
+    ,terminal_zh
+    ,terminal_en
+    ,time_zone
+FROM
+    airport_base_info_new
+WHERE
+    terminal_zh = 'None'    

@@ -1,0 +1,9 @@
+SELECT
+    device_id
+    ,address
+    ,longitude
+    ,latitude
+    ,telenumber
+    ,user_name
+FROM
+    trends_bl_skyeye_device_info
